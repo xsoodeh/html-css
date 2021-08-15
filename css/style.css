@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    /* background: url("/img/h1_hero.png.webp") top center no-repeat; */
+}
+
+.container {
+    width: 1200px;
+    padding: 20px;
+}
+
+#left {
+    float: left;
+    /* width: 40%; */
+    /* height: auto; */
+    border: 1px solid red;
+  
+}
+
+#right {
+    float: right;
+    width: 50%;
+    /* height: auto; */
+    border: 1px solid red;
+    /* margin-left:10px; */
+
+}
+
+#right img {
+    /* float: right; */
+    max-width: 584px;
+    max-height: 607px;
+}
+
+p {
+    /* font-family: "Poppins", sans-serif; */
+    color: #707b8e;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+
+}
+
+#left h3 {
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 14px;
+    color: #2b4b80;
+    line-height: 1.2;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+
+.btn {
+    text-decoration: none;
+    background: #ff5c97;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 0;
+    margin-bottom: 0;
+    padding: 30px 44px;
+    border-radius: 5px;
+    min-width: 200px;
+    margin: 0;
+}
